@@ -1,3 +1,14 @@
 1704248775372	Rename package 'com.kh.springchap1'
 1704248798643	Rename package 'com.kh.springchap1.model'
 1704253221808	Rename compilation unit 'MemberDetailServiceImpl.java'
+1704263675973	Move compilation unit
+1704264068685	Rename resource 'index.html'
+1704264093528	Rename resource 'oauth.html'
+1704265618330	Rename resource '설명적는란.txt'
+1704265620690	Move '인증.txt' to '설명적는란'
+1704265628039	Copy file
+1704269350611	Copy file
+1704269360367	Delete element
+1704269421681	Delete element
+1704269439034	Delete element
+1704269466977	Delete element

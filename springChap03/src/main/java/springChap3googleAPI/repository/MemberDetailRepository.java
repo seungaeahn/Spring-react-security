@@ -6,6 +6,7 @@ import org.springframework.data.jpa.repository.JpaRepository;
 
 import springChap3googleAPI.model.MemberGoogle;
 
-public interface MemberDetailRepository  extends JpaRepository<MemberGoogle, Long>{
+public interface MemberDetailRepository 
+extends JpaRepository<MemberGoogle, Long>{
 	Optional<MemberGoogle> findByUsername(String username);
 }

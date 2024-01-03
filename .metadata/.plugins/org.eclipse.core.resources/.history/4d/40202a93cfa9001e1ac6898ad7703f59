@@ -1,0 +1,6 @@
+package com.kh.springchap2.mapper;
+
+//JPARepository
+public interface ProductMapper {
+	//
+}

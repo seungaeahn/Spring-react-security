@@ -1,0 +1,8 @@
+package springChap3googleAPI.service;
+
+import org.springframework.stereotype.Service;
+
+@Service
+public class MemberDetailServiceImpl implements UserDetailService{
+
+}

@@ -1,0 +1,16 @@
+package springChap3googleAPI.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.userdetails.UserDetailsService;
+import org.springframework.stereotype.Service;
+
+import springChap3googleAPI.repository.MemberGoogleRepository;
+
+@Service
+public class UserDetailServiceImpl implements UserDetailsService{
+	@Autowired
+	private MemberGoogleRepository memberGoogleRepository;
+	
+	public UserDetails 
+}
+

@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="EUC-KR">
+<title>login Success</title>
+</head>
+<body>
+	<h1 th:if="${newUser}"}>환영합니다. 새로운 사용자님!</h1>
+</body>
+</html>

@@ -1,0 +1,19 @@
+server.port = 8080
+spring.datasource.url=jdbc:oracle:thin:@//localhost:1521/XE
+spring.datasource.username=shinee
+spring.datasource.password=shinee
+spring.datasource.driver-class-name=oracle.jdbc.OracleDriver
+
+
+spring.security.oauth2.client.registration.google.client-id=89006174530-b1ve55l3egia0f9gf4a9a0mjtk4bdm03.apps.googleusercontent.com
+spring.security.oauth2.client.registration.google.client-secret=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
+
+# 범위에서 허용한 범위를 넣어줌 
+spring.security.oauth2.client.registration.google.scope=openid, profile, email
+
+
+
+#클라이언트 ID
+#89006174530-b1ve55l3egia0f9gf4a9a0mjtk4bdm03.apps.googleusercontent.com
+#클라이언트 보안 비밀번호
+#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

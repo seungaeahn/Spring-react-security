@@ -1531,3 +1531,962 @@ java.lang.NullPointerException
 	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
 	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+!SESSION 2024-01-04 08:53:33.398 -----------------------------------------------
+eclipse.buildId=4.29.0.20230907-1200
+java.version=17.0.9
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.emf.ecore 2 0 2024-01-04 08:54:09.559
+!MESSAGE Both 'org.eclipse.jst.j2ee.core' and 'org.eclipse.jst.j2ee.core' register a package for 'application.xmi'
+
+!ENTRY ch.qos.logback.classic 1 0 2024-01-04 08:54:09.777
+!MESSAGE Activated before the state location was initialized. Retry after the state location is initialized.
+
+!ENTRY org.eclipse.epp.mpc.core 4 0 2024-01-04 08:54:09.896
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.core [353]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http; version="[5.1.0,5.2.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.epp.mpc.core.win32 4 0 2024-01-04 08:54:09.896
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.core.win32 [354]
+  Unresolved requirement: Import-Package: org.apache.hc.client5.http.auth; version="[5.1.0,5.2.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY org.eclipse.epp.mpc.ui 4 0 2024-01-04 08:54:09.896
+!MESSAGE FrameworkEvent ERROR
+!STACK 0
+org.osgi.framework.BundleException: Could not resolve module: org.eclipse.epp.mpc.ui [356]
+  Unresolved requirement: Require-Bundle: org.eclipse.epp.mpc.core; bundle-version="[1.10.1,2.0.0)"
+    -> Bundle-SymbolicName: org.eclipse.epp.mpc.core; bundle-version="1.10.1.v20221110-1841"; singleton:="true"
+       org.eclipse.epp.mpc.core [353]
+         Unresolved requirement: Import-Package: org.apache.hc.client5.http; version="[5.1.0,5.2.0)"
+
+	at org.eclipse.osgi.container.Module.start(Module.java:463)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel$2.run(ModuleContainer.java:1852)
+	at org.eclipse.osgi.internal.framework.EquinoxContainerAdaptor$1$1.execute(EquinoxContainerAdaptor.java:136)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1845)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1786)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1750)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1672)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:234)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:345)
+
+!ENTRY ch.qos.logback.classic 1 0 2024-01-04 08:54:13.554
+!MESSAGE Logback config file: C:\Users\user1\spring-react\.metadata\.plugins\org.eclipse.m2e.logback\logback.2.2.0.20230625-0847.xml
+
+!ENTRY org.eclipse.jface 2 0 2024-01-04 08:54:15.370
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-04 08:54:15.370
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.jdt.ui.navigate.open.type"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.lsp4e.symbolinworkspace"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-04 08:54:19.069
+!MESSAGE Command list starting LS: org.springframework.tooling.boot.ls
+START:
+C:\Users\user1\.p2\pool\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.9.v20231028-0858\jre\bin\javaw.exe
+-cp
+C:\Users\user1\Desktop\eclipse\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.50.0.202310252332\servers\spring-boot-language-server\BOOT-INF\classes;C:\Users\user1\Desktop\eclipse\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.50.0.202310252332\servers\spring-boot-language-server\BOOT-INF\lib\*
+-Dsts.lsp.client=eclipse
+-Dlsp.completions.indentation.enable=true
+-Xmx1024m
+-XX:+HeapDumpOnOutOfMemoryError
+-XX:TieredStopAtLevel=1
+-Xlog:jni+resolve=off
+-Dspring.config.location=file:C:\Users\user1\Desktop\eclipse\..\..\.p2\pool\plugins\org.springframework.tooling.boot.ls_1.50.0.202310252332\servers\spring-boot-language-server\BOOT-INF\classes\application.properties
+-XX:ErrorFile=C:/Users/user1/spring-react/.metadata/.plugins/org.springframework.tooling.boot.ls/fatal-error-spring-boot_1704326059069
+org.springframework.ide.vscode.boot.app.BootLanguageServerBootApp
+--languageserver.hover-timeout=225
+END
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:19.070
+!MESSAGE DelegatingStreamConnectionProvider - Starting Boot LS
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2024-01-04 08:54:19.082
+!MESSAGE Started org.springframework.tooling.boot.ls LS process 1604
+
+!ENTRY org.eclipse.egit.ui 2 0 2024-01-04 08:54:20.145
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\user1'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:20.258
+!MESSAGE Boot project ADDED: springChap01
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:20.259
+!MESSAGE Starting Boot LS...
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:20.260
+!MESSAGE Started Boot LS process
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:20.274
+!MESSAGE Boot project ADDED: springChap02
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:20.294
+!MESSAGE Boot project ADDED: springChap03
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 08:54:20.294
+!MESSAGE Boot project ADDED: springChap3-googleAPI-2
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-04 08:54:24.599
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.jface 2 0 2024-01-04 09:03:20.618
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2024-01-04 09:03:20.618
+!MESSAGE A conflict occurred for CTRL+SHIFT+C:
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand,Toggle Line Comment,
+		,
+		Category(org.eclipse.tm4e.languageconfiguration.category,TM4E Language Configuration,null,true),
+		WorkbenchHandlerServiceHandler("org.eclipse.tm4e.languageconfiguration.toggleLineCommentCommand"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+Binding(CTRL+SHIFT+C,
+	ParameterizedCommand(Command(org.springframework.tooling.boot.ls.ToggleComment,Toggle Comment,
+		,
+		Category(org.springframework.ide.eclipse.commands,Spring Generic Text Editor,Spring Language Server Commands,true),
+		WorkbenchHandlerServiceHandler("org.springframework.tooling.boot.ls.ToggleComment"),
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-01-04 09:04:30.825
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-04 09:46:13.079
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.eclipse.lsp4e 2 0 2024-01-04 09:47:32.917
+!MESSAGE Timeout waiting for data to generate LS hover
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at org.eclipse.lsp4e.jdt.LSJavaHoverProvider.getHoverInfo2(LSJavaHoverProvider.java:65)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:130)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
+	at org.eclipse.jface.text.TextViewerHoverManager$1.run(TextViewerHoverManager.java:155)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-01-04 09:51:05.187
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-01-04 09:53:40.828
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY de.yatta.platform.marketplace.licensing.client 2 0 2024-01-04 10:18:26.770
+!MESSAGE Could not receive a valid response for solution feature de.yatta.feature.corediagrams from the license server.
+!STACK 0
+org.apache.http.NoHttpResponseException: platform.yatta.de:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at de.yatta.eclipse.launcher.communication.utils.HttpRequestContext$RequestTemplateExecutor.doReceiveResponse(HttpRequestContext.java:689)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at de.yatta.eclipse.launcher.communication.utils.RequestTemplate.execute(RequestTemplate.java:201)
+	at de.yatta.platform.marketplace.licensing.client.LicensingClient$1.run(LicensingClient.java:503)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY de.yatta.platform.marketplace.licensing.client 2 0 2024-01-04 10:18:26.774
+!MESSAGE Could not receive a valid response for solution feature de.yatta.feature.roundtrip from the license server.
+!STACK 0
+org.apache.http.NoHttpResponseException: platform.yatta.de:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at de.yatta.eclipse.launcher.communication.utils.HttpRequestContext$RequestTemplateExecutor.doReceiveResponse(HttpRequestContext.java:689)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at de.yatta.eclipse.launcher.communication.utils.RequestTemplate.execute(RequestTemplate.java:201)
+	at de.yatta.platform.marketplace.licensing.client.LicensingClient$1.run(LicensingClient.java:503)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 15:12:28.793
+!MESSAGE Classpath changed for project: springChap04-naverAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 15:12:31.911
+!MESSAGE Classpath changed for project: springChap04-naverAPI
+
+!ENTRY org.springframework.tooling.boot.ls 1 0 2024-01-04 15:12:31.912
+!MESSAGE Boot project ADDED: springChap04-naverAPI
+
+!ENTRY de.yatta.platform.marketplace.licensing.client 2 0 2024-01-04 15:19:42.788
+!MESSAGE Could not receive a valid response for solution feature de.yatta.feature.corediagrams from the license server.
+!STACK 0
+org.apache.http.NoHttpResponseException: platform.yatta.de:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at de.yatta.eclipse.launcher.communication.utils.HttpRequestContext$RequestTemplateExecutor.doReceiveResponse(HttpRequestContext.java:689)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at de.yatta.eclipse.launcher.communication.utils.RequestTemplate.execute(RequestTemplate.java:201)
+	at de.yatta.platform.marketplace.licensing.client.LicensingClient$1.run(LicensingClient.java:503)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY de.yatta.platform.marketplace.licensing.client 2 0 2024-01-04 15:19:42.789
+!MESSAGE Could not receive a valid response for solution feature de.yatta.feature.roundtrip from the license server.
+!STACK 0
+org.apache.http.NoHttpResponseException: platform.yatta.de:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at de.yatta.eclipse.launcher.communication.utils.HttpRequestContext$RequestTemplateExecutor.doReceiveResponse(HttpRequestContext.java:689)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at de.yatta.eclipse.launcher.communication.utils.RequestTemplate.execute(RequestTemplate.java:201)
+	at de.yatta.platform.marketplace.licensing.client.LicensingClient$1.run(LicensingClient.java:503)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY de.yatta.platform.marketplace.licensing.client 2 0 2024-01-04 15:19:42.794
+!MESSAGE Could not receive a valid response for solution feature de.yatta.feature.emf from the license server.
+!STACK 0
+org.apache.http.NoHttpResponseException: platform.yatta.de:443 failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:141)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
+	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
+	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
+	at de.yatta.eclipse.launcher.communication.utils.HttpRequestContext$RequestTemplateExecutor.doReceiveResponse(HttpRequestContext.java:689)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:83)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:56)
+	at org.apache.http.client.fluent.Request.internalExecute(Request.java:173)
+	at org.apache.http.client.fluent.Executor.execute(Executor.java:262)
+	at de.yatta.eclipse.launcher.communication.utils.RequestTemplate.execute(RequestTemplate.java:201)
+	at de.yatta.platform.marketplace.licensing.client.LicensingClient$1.run(LicensingClient.java:503)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 15:45:57.504
+!MESSAGE Marker id 755 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/springChap04-naverAPI/src/main/resources/application.properties)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-01-04 15:45:57.505
+!MESSAGE Marker id 755 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 15:45:57.506
+!MESSAGE Marker id 755 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/springChap04-naverAPI/src/main/resources/application.properties)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:146)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:988)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:129)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1066)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:428)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2122)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2896)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2006)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2012)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1975)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1932)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1403)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1364)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:553)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-01-04 15:45:57.506
+!MESSAGE Marker id 755 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:146)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:988)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:129)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1066)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:428)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2122)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2896)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2006)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2012)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1975)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1932)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1403)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1364)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:553)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:13.029
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:15.108
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:15.370
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:15.689
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:15.855
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:16.226
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:16.491
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:16.683
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:17.643
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:17.945
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:18.249
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:18.377
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:18.481
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:18.770
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:21.381
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:21.802
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:21.971
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:22.214
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:22.363
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:24:22.622
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/index.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 16:27:03.951
+!MESSAGE [Error]	Error while computing completions for file:///C:/Users/user1/spring-react/springChap04-naverAPI/src/main/resources/templates/loginSuccess.html: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+Error: Range#create called with invalid arguments[[object Object], [object Object], undefined, undefined]
+    at e.create (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1275366)
+    at V (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798723)
+    at j.computeCompletions (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:798000)
+    at Y.doComplete2 (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:799513)
+    at doComplete (C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1372158)
+    at C:\Users\user1\.p2\pool\plugins\org.eclipse.wildwebdeveloper_1.1.1.202308101949\node_modules\vscode-html-languageserver\dist\node\htmlServerMain.js:1:1358235
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-01-04 16:28:08.610
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.springframework.ide.eclipse.boot.dash 4 0 2024-01-04 16:39:44.393
+!MESSAGE Failed to connect to Boot app
+!STACK 0
+java.lang.NullPointerException
+	at java.base/java.util.concurrent.CompletableFuture.uniAcceptStage(CompletableFuture.java:732)
+	at java.base/java.util.concurrent.CompletableFuture.thenAccept(CompletableFuture.java:2182)
+	at org.springframework.ide.eclipse.boot.dash.liveprocess.DefaultLiveProcessCommandExecutor.executeCommand(DefaultLiveProcessCommandExecutor.java:60)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:219)
+	at org.springframework.ide.eclipse.boot.dash.BootDashActivator$1.stateChanged(BootDashActivator.java:1)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker.updateOwnerStatesAndFireEvents(RunStateTracker.java:216)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:151)
+	at org.springframework.ide.eclipse.boot.dash.util.RunStateTracker$1.gotValue(RunStateTracker.java:1)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.changed(LiveExpression.java:137)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveExpression.refresh(LiveExpression.java:81)
+	at org.springsource.ide.eclipse.commons.livexp.core.LiveVariable.setValue(LiveVariable.java:46)
+	at org.springframework.ide.eclipse.boot.dash.util.AbstractPollingAppReadyStateMonitor$1.run(AbstractPollingAppReadyStateMonitor.java:51)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 17:10:55.275
+!MESSAGE Marker id 907 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/springChap04-naverAPI/src/main/java/com/kh/springchap4/config/SecurityConfig.java)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-01-04 17:10:55.275
+!MESSAGE Marker id 907 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.setAttribute(Marker.java:260)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.lambda$7(LSPCodeActionMarkerResolution.java:141)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.postFire(CompletableFuture.java:614)
+	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:653)
+	at java.base/java.util.concurrent.CompletableFuture$Completion.exec(CompletableFuture.java:483)
+	at java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:373)
+	at java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1182)
+	at java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:1655)
+	at java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1622)
+	at java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+
+!ENTRY org.eclipse.lsp4e 4 0 2024-01-04 17:10:55.275
+!MESSAGE Marker id 907 not found.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException(/springChap04-naverAPI/src/main/java/com/kh/springchap4/config/SecurityConfig.java)[376]: java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:146)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:988)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:129)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1066)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:428)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2122)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2896)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2006)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2012)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1975)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1932)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1403)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1364)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:553)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)
+!SUBENTRY 1 org.eclipse.core.resources 4 376 2024-01-04 17:10:55.276
+!MESSAGE Marker id 907 not found.
+!STACK 0
+java.lang.IllegalStateException
+	at org.eclipse.core.internal.resources.Marker.checkInfo(Marker.java:63)
+	at org.eclipse.core.internal.resources.Marker.getAttribute(Marker.java:108)
+	at org.eclipse.lsp4e.operations.codeactions.LSPCodeActionMarkerResolution.hasResolutions(LSPCodeActionMarkerResolution.java:209)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolution(MarkerHelpRegistry.java:264)
+	at org.eclipse.ui.internal.ide.registry.MarkerHelpRegistry.hasResolutions(MarkerHelpRegistry.java:234)
+	at org.eclipse.ui.views.markers.MarkerField.annotateImage(MarkerField.java:87)
+	at org.eclipse.ui.internal.views.markers.MarkerProblemSeverityAndMessageField.update(MarkerProblemSeverityAndMessageField.java:80)
+	at org.eclipse.ui.internal.views.markers.MarkerColumnLabelProvider.update(MarkerColumnLabelProvider.java:57)
+	at org.eclipse.jface.viewers.ViewerColumn.refresh(ViewerColumn.java:146)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:988)
+	at org.eclipse.ui.internal.views.markers.MarkersTreeViewer.doUpdateItem(MarkersTreeViewer.java:70)
+	at org.eclipse.jface.viewers.AbstractTreeViewer$UpdateItemSafeRunnable.run(AbstractTreeViewer.java:129)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.doUpdateItem(AbstractTreeViewer.java:1066)
+	at org.eclipse.jface.viewers.StructuredViewer$UpdateItemSafeRunnable.run(StructuredViewer.java:428)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:45)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:174)
+	at org.eclipse.jface.viewers.StructuredViewer.updateItem(StructuredViewer.java:2122)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.updateChildren(AbstractTreeViewer.java:2896)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2006)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefreshStruct(AbstractTreeViewer.java:2012)
+	at org.eclipse.jface.viewers.TreeViewer.internalRefreshStruct(TreeViewer.java:688)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1975)
+	at org.eclipse.jface.viewers.AbstractTreeViewer.internalRefresh(AbstractTreeViewer.java:1932)
+	at org.eclipse.jface.viewers.StructuredViewer.lambda$3(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1403)
+	at org.eclipse.jface.viewers.TreeViewer.preservingSelection(TreeViewer.java:366)
+	at org.eclipse.jface.viewers.StructuredViewer.preservingSelection(StructuredViewer.java:1364)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1497)
+	at org.eclipse.jface.viewers.ColumnViewer.refresh(ColumnViewer.java:553)
+	at org.eclipse.jface.viewers.StructuredViewer.refresh(StructuredViewer.java:1458)
+	at org.eclipse.ui.internal.views.markers.UIUpdateJob.runInUIThread(UIUpdateJob.java:103)
+	at org.eclipse.ui.progress.UIJob.lambda$0(UIJob.java:148)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:132)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4047)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3663)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1046)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:645)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:342)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:552)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:171)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:152)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:136)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:402)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:651)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:588)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1459)

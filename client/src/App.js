@@ -2,15 +2,17 @@
 
 import KakaoLogin from "./KakaoApp";
 
-// import GoogleApp from "./GoogleApp";
-// import NaverApp from "./NaverApp";
+import GoogleApp from "./GoogleApp";
+import NaverApp from "./NaverApp";
+import NaverLoginBackend from "./NaverLoginBackend";
 
 const App = () => {
   return (
     <div>
-      {/* <GoogleApp /> */}
-      {/* <NaverApp /> */}
+      <GoogleApp />
+      <NaverApp />
       <KakaoLogin />
+      <NaverLoginBackend />
     </div>
   );
 };

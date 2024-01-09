@@ -30,8 +30,9 @@ public class DatabaseConfig {
 	private ResourceDatabasePopulator databasePopulator(DataSource dataSource) {
 		ResourceDatabasePopulator populator = new ResourceDatabasePopulator();
 		//만약에 테이블이 없을 경우에만 생성하게 만들자!
-		if(!tableExists(dataSource, "Members"))
+		if(!tableExists(dataSource, "Members")) {
 		populator.addScript(new ClassPathResource("sql/create-members-table.sql"));
+		}
 		return populator;
 	}
 	

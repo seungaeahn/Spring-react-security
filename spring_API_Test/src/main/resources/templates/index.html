@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Address Search</title>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2 class="mb-4">Address Search</h2>
+        <form id="searchForm">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Enter address" id="addressInput" required>
+                <div class="input-group-append">
+                    <button class="btn btn-primary" type="button" onclick="searchAddress()">Search</button>
+                </div>
+            </div>
+        </form>
+        <div id="resultContainer" class="mt-4"></div>
+    </div>
+
+    <script>
+    function searchAddress() {
+    var address = document.getElementById('addressInput').value;
+    if (address.trim() === '') {
+        alert('Please enter an address.');
+        return;
+    }
+
+    // Ajax로 서버에 주소 검색 요청
+    fetch('/map?address=' + encodeURIComponent(address))
+        .then(response => response.json())
+        .then(data => {
+            // 검색 결과를 HTML에 표시
+            var resultContainer = document.getElementById('resultContainer');
+            resultContainer.innerHTML = '<h4>Search Result</h4>';
+
+           
+
+              
+               // URL 업데이트 및 리다이렉션
+				var newUrl = window.location.origin + '/map?address=' + encodeURIComponent(address);
+				console.log('New URL:', newUrl);
+				window.history.pushState({ path: newUrl }, '', newUrl);
+				window.location.href = newUrl;
+        })
+        .catch(error => {
+            console.error('Error during address search:', error);
+            alert('An error occurred during address search.');
+        });
+}
+
+    </script>
+</body>
+</html>

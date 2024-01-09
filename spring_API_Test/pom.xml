@@ -39,6 +39,14 @@
 			<artifactId>mybatis-spring-boot-starter</artifactId>
 			<version>3.0.3</version>
 		</dependency>
+		
+		<!--json파일추가!!!-->
+		<dependency>
+			<groupId>org.json</groupId>
+			<artifactId>json</artifactId>
+			<version>20230618</version>
+		</dependency>
+		<!--json파일추가!!!-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>

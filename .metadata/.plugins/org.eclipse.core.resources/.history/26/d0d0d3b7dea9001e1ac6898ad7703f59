@@ -1,6 +1,0 @@
-spring.security.oauth2.client.registration.google.client-id=89006174530-b1ve55l3egia0f9gf4a9a0mjtk4bdm03.apps.googleusercontent.com
-
-#클라이언트 ID
-#89006174530-b1ve55l3egia0f9gf4a9a0mjtk4bdm03.apps.googleusercontent.com
-#클라이언트 보안 비밀번호
-#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

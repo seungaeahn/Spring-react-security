@@ -12,6 +12,5 @@ import lombok.Data;
 public class MsgEntity {
 	private String msg;
 	private Object result;
-	
-	
+
 }

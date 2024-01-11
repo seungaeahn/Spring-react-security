@@ -40,16 +40,16 @@ public class MemberController {
 		return "login";
 	}
 
-//	@PostMapping("/login")
-//	public String login(String username, String password, Model model) {
-//		Member userInfo = memberService.login(username, password);
-//		if(userInfo != null) {
-//			model.addAttribute("loginSuccess", true);
-//			return "loginSuccess";
-//		} else {
-//			model.addAttribute("error", "로그인에 실패했습니다");
-//			return "loginSuccess";
-//		}
+	@PostMapping("/login")
+	public String login(String username, String password, Model model) {
+		Member userInfo = memberService.login(username, password);
+		if(userInfo != null) {
+			model.addAttribute("loginSuccess", true);
+			return "loginSuccess";
+		} else {
+			model.addAttribute("error", "로그인에 실패했습니다");
+			return "loginSuccess";
+		}
 //		
 //	}
 	

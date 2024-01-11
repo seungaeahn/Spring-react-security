@@ -48,7 +48,7 @@ public class KakaoService {
 		//http HEADER에 내 정보를 흘려 보내겠다 작성 
 		try {
 			HttpHeaders headers = new HttpHeaders();
-			headers.add("Content-type", "application/x-www-forn-urlencoded");
+			headers.add("Content-type", "application/x-www-form-urlencoded");
 			
 			/*	
 			 * 카카오 로그인 아이디 + 시크릿키 + 코드 + 리다이렉트 url 모두 붙여줄 것
@@ -113,7 +113,7 @@ public class KakaoService {
 		//토큰용 HttpHeader 생성
 		HttpHeaders headers = new HttpHeaders();
 		//Bearer : HTTP 요청에서 인증할 때 특정 형태로 변환해서 토큰 타입을 나타내는 것 
-		headers.add("Authorization", "Bearer" + accessToken);
+		headers.add("Authorization", "Bearer " + accessToken);
 		headers.add("Content-type", "application/x-www-form-urlencoded;charset=utf-8");
 		
 		//내용을 담을 템플릿 생성

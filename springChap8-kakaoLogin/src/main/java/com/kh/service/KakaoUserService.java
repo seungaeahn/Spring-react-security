@@ -125,8 +125,6 @@ public class KakaoUserService {
 		
 		//내용을 담을 템플릿 생성
 		RestTemplate rt = new RestTemplate();
-		System.out.println("***********response*********responseresponse**************");
-		
 		HttpEntity<MultiValueMap<String, String>> httpEntity = new HttpEntity<>(headers);
 		ResponseEntity<String> response = rt.exchange(
 				KAKAO_API_URI + "/v2/user/me",
@@ -137,7 +135,6 @@ public class KakaoUserService {
 		//Response 데이터를 가지고 오기
 		JSONParser jsonParser = new JSONParser();
 		JSONObject jsonObj = (JSONObject) jsonParser.parse(response.getBody());
-		System.out.println("***********************************");
 		JSONObject account = (JSONObject) jsonObj.get("kakao_account");
 		JSONObject profile = (JSONObject) account.get("profile");
 		

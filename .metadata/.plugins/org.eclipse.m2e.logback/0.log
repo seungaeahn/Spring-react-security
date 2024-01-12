@@ -4002,3 +4002,111 @@
 2024-01-12 16:27:55,093 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2024-01-12 16:27:55,096 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
 2024-01-12 16:27:55,098 [Worker-133: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 16:28:09,391 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 16:28:09,395 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 16:28:09,397 [Worker-134: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:13:07,433 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:13:07,437 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:13:07,439 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:29:47,527 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:29:47,530 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:29:47,532 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:30:36,992 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:30:36,995 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:30:36,998 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:30:50,874 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:30:50,877 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:30:50,879 [Worker-150: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:31:43,180 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:31:43,184 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:31:43,186 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:32:41,291 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:32:41,294 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:32:41,296 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:35:55,597 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:35:55,600 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:35:55,602 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:38:13,402 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:38:13,404 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:38:13,407 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:39:03,381 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:39:03,386 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:39:03,388 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:39:30,863 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:39:30,867 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:39:30,869 [Worker-138: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:40:20,512 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:40:20,515 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:40:20,517 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:40:37,163 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:40:37,165 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:40:37,167 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:40:42,789 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:40:42,791 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 2 resources from src\main\resources to target\classes
+2024-01-12 17:40:42,793 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:40:54,918 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:40:54,919 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:40:54,922 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:41:10,103 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:41:10,104 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:41:10,108 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:43:43,112 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:43:43,113 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:43:43,116 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:45:10,717 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:45:10,720 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:45:10,722 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:46:32,294 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:46:32,295 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:46:32,298 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:46:40,661 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:46:40,662 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:46:40,664 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:46:48,417 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:46:48,418 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:46:48,421 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:49:08,463 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:49:08,464 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:49:08,466 [Worker-113: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:49:47,962 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:49:47,963 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:49:47,965 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:50:04,607 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:50:04,608 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:50:04,611 [Worker-151: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:50:18,651 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:50:18,651 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:50:18,654 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:50:53,739 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:50:53,744 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:50:53,747 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:51:23,101 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:51:23,106 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:51:23,109 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:51:49,172 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:51:49,177 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:51:49,179 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:52:46,893 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:52:46,896 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:52:46,898 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:54:27,161 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:54:27,163 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:54:27,166 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:55:06,616 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:55:06,618 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:55:06,620 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:56:31,715 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:56:31,717 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:56:31,720 [Worker-147: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:56:41,012 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:56:41,015 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:56:41,017 [Worker-153: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:57:03,488 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:57:03,489 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:57:03,491 [Worker-148: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:58:02,697 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2024-01-12 17:58:02,698 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:58:02,701 [Worker-154: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources
+2024-01-12 17:58:20,689 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2024-01-12 17:58:20,692 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 3 resources from src\main\resources to target\classes
+2024-01-12 17:58:20,694 [Worker-152: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\user1\spring-react\springChap8-kakaoLogin\src\test\resources

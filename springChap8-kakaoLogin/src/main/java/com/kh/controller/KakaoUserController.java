@@ -10,10 +10,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.kh.common.MsgEntity;
 import com.kh.dto.KakaoDTO;
+import com.kh.repository.KakaoUserRepository;
 import com.kh.service.KakaoUserService;
 import com.kh.vo.KakaoUser;
 
 import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 import lombok.RequiredArgsConstructor;
 
 @Controller
@@ -21,13 +23,24 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class KakaoUserController {
 	private final KakaoUserService kakaoUserService;
+	private final KakaoUserRepository kakaoUserRepository;
 	@GetMapping("/callback")
 	public String callback(HttpServletRequest request, 
 			@RequestParam(required = false) String name, 
-			@RequestParam(required = false) String birthdate, Model model)
+			@RequestParam(required = false) String birthdate, Model model,
+			HttpSession session)
 					throws Exception{
 		// kakao/callback을 작성하면 JSON 형식으로 이동했지만 register html 파일로 이동하게 해줄 것 
 		KakaoDTO kakaoInfo = kakaoUserService.getKakaoInfo(request.getParameter("code"), name, birthdate);
+		
+		//카카오톡에서 인증한 이메일을 가지고 오는 것이지 DB에서 존재하는 email을 가지고 오는 게 아님 
+        KakaoUser existingUser = kakaoUserRepository.findByEmail(kakaoInfo.getEmail());
+        if (existingUser != null) {
+            session.setAttribute("InUser", existingUser);
+            return "redirect:/main";
+        }
+			
+		
 		model.addAttribute("kakaoInfo", kakaoInfo);
 		return "register";
 	}
@@ -48,5 +61,4 @@ public class KakaoUserController {
 		return ResponseEntity.ok()
 				.body(new MsgEntity("Success", registerdUser));
 	}
-
 }
